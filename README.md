@@ -12,6 +12,18 @@
   </p>
 </div>
 
+## 앱 미리보기
+
+<p align="center">
+  <img src="./assets/screenshot/스크린샷1.png" width="46%" alt="Duck Routine 화면 1" />
+  <img src="./assets/screenshot/스크린샷2.png" width="46%" alt="Duck Routine 화면 2" />
+</p>
+
+<p align="center">
+  <img src="./assets/screenshot/스크린샷3.png" width="46%" alt="Duck Routine 화면 3" />
+  <img src="./assets/screenshot/스크린샷4.png" width="46%" alt="Duck Routine 화면 4" />
+</p>
+
 ## 소개
 
 **Duck Routine**은 막막한 일을 아주 작은 행동 단위로 나누어, 부담 없이 첫걸음을 뗄 수 있도록 돕는 앱입니다. 오늘 할 일을 일정으로 등록하고, 단계별 타이머를 따라가며 하나씩 완료할 수 있습니다.
