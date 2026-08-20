@@ -11,6 +11,8 @@ expo-env.d.ts
 
 # Native
 .kotlin/
+/credentials/
+/credentials.json
 *.orig.*
 *.jks
 *.p8
@@ -31,7 +33,17 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Third-party service configuration and service accounts
+google-services.json
+GoogleService-Info.plist
+*service-account*.json
+*serviceAccount*.json
+firebase-adminsdk-*.json
 
 # typescript
 *.tsbuildinfo

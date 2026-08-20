@@ -1,22 +1,23 @@
 {
   "expo": {
-    "name": "duck-routine",
+    "name": "Duck Routine",
     "slug": "duck-routine",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/app-icon.png",
     "scheme": "duckroutine",
-    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#FFFFFF",
+    "primaryColor": "#FF7A24",
+    "userInterfaceStyle": "light",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "bundleIdentifier": "com.gwontaejun.duckroutine",
+      "icon": "./assets/images/app-icon.png"
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
+      "package": "com.gwontaejun.duckroutine",
+      "versionCode": 5,
+      "icon": "./assets/images/app-icon.png",
+      "allowBackup": false,
       "predictiveBackGestureEnabled": false
     },
     "web": {
@@ -26,17 +27,63 @@
     "plugins": [
       "expo-router",
       [
+        "expo-navigation-bar",
+        {
+          "enforceContrast": false,
+          "style": "light"
+        }
+      ],
+      [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/images/app-icon.png",
+          "imageWidth": 112
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#FF7A24",
+          "defaultChannel": "routine-reminders"
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-6204548244998320~1637785769",
+          "iosAppId": "ca-app-pub-6204548244998320~5964043584"
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          }
         }
       ]
     ],
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "expo-navigation-bar": {
+        "enforceContrast": false,
+        "style": "light"
+      },
+      "eas": {
+        "projectId": "ac8fd1d7-f9b9-4771-a8b7-6efa91e6ee9a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ac8fd1d7-f9b9-4771-a8b7-6efa91e6ee9a"
     }
   }
 }
