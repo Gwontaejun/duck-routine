@@ -15,13 +15,10 @@
 ## 앱 미리보기
 
 <p align="center">
-  <img src="./assets/screenshot/스크린샷1.png" width="46%" alt="Duck Routine 화면 1" />
-  <img src="./assets/screenshot/스크린샷2.png" width="46%" alt="Duck Routine 화면 2" />
-</p>
-
-<p align="center">
-  <img src="./assets/screenshot/스크린샷3.png" width="46%" alt="Duck Routine 화면 3" />
-  <img src="./assets/screenshot/스크린샷4.png" width="46%" alt="Duck Routine 화면 4" />
+  <img src="./assets/screenshot/스크린샷1.png" width="23%" alt="Duck Routine 화면 1" />
+  <img src="./assets/screenshot/스크린샷2.png" width="23%" alt="Duck Routine 화면 2" />
+  <img src="./assets/screenshot/스크린샷3.png" width="23%" alt="Duck Routine 화면 3" />
+  <img src="./assets/screenshot/스크린샷4.png" width="23%" alt="Duck Routine 화면 4" />
 </p>
 
 ## 소개
