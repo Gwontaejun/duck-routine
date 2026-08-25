@@ -3,7 +3,7 @@
 
   # Duck Routine
 
-  ### 오늘을 가볍게 시작하도록 돕는, 작은 단계의 루틴 앱
+  ###  작은 시작을 돕는 루틴
 
   <p>
     <img src="https://img.shields.io/badge/Expo-54-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo" />
