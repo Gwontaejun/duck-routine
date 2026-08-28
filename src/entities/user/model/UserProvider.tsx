@@ -30,7 +30,7 @@ const defaultNotificationSettings: NotificationSettings = {
 };
 
 export function UserProvider({ children }: PropsWithChildren) {
-  const [name, setName] = useState('나');
+  const [name, setName] = useState('사용자');
   const [notificationSettings, setNotificationSettings] = useState<NotificationSettings>(
     defaultNotificationSettings,
   );
