@@ -15,7 +15,7 @@
     },
     "android": {
       "package": "com.gwontaejun.duckroutine",
-      "versionCode": 6,
+      "versionCode": 7,
       "icon": "./assets/images/app-icon.png",
       "allowBackup": false,
       "predictiveBackGestureEnabled": false
